@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splatoon - Márkák</title>
+    <link rel="icon" href="kepek/icon.png" type="image/x-icon">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="splatoon.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img style="width: 100px;" src="kepek/Splatoon logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="modes.html"><img src="kepek/icon1.png" alt="">Játék Módok</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="locations.html"><img src="kepek/icon2.png" alt="">Helyszínek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sunken_scroll.html"><img src="kepek/icon3.png" alt="">Sunken Scrollok</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="characters.html"><img src="kepek/icon4.png" alt="">Karakterek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="amiibos.html"><img src="kepek/icon5.png" alt="">Amiibok</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="brands.html"><img src="kepek/icon6.png" alt=""><span class="aktiv">Márkák</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="single-player.html"><img src="kepek/icon7.png" alt="">Egyjátékos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="salmon_run.html"><img src="kepek/icon8.png" alt="">Salmon Run</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="stages.html"><img src="kepek/icon9.png" alt="">Pályák</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="abilities.html"><img src="kepek/icon13.png" alt="">Képességek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="player_settings.html"><img src="kepek/icon10.png" alt="">Játékos Beállításai</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="games.html"><img src="kepek/icon12.png" alt="">Játékok</a>
+              </li>
+              <li class="nav-item">
+                <span onclick="generateRandomImage()" data-bs-toggle="offcanvas" data-bs-target="#demo" class="nav-link" href=""><img src="kepek/icon11.png" alt="">Információk</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+
+
+      <h1 class="leiras"><img src="kepek/35.png" alt="">Márkák</h1>
+
+
+      <div class="container mt-3">
+        <h2 class="leiras">Ruha Márkák</h2>        
+        <table class="table table-hover">
+          <thead>
+            <tr style="text-align: center;">
+              <th>Márka logó</th>
+              <th>Márka név</th>
+              <th>Kedvelt képesség (x5)</th>
+              <th>Nem kedvelt képesség (x0,5)</th>
+              <th>Mennyiség (fegyverek és ruhák)</th>
+              <th style="width: 10%;">Játékok</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb1.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Amiibo</span></td>
+                <td class="modeleiras"></td>
+                <td class="modeleiras"></td>
+                <td class="modeleiras"><span class="modename">33</span> ruha</td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb2.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Annaki</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/mpu.png" alt="">Main Power Up</span>
+                <br>
+                <span class="modename"><img class="brandlogo" src="kepek/iss.png" alt="">Ink Saver (Sub)</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ss.png" alt="">Special Saver</span></td>
+                <td class="modeleiras"><span class="modename">22</span> ruha
+                <br>
+                <span class="modename">1</span> fegyver</td>
+                <td>
+                    <img src="kepek/s1e.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb3.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Barazushi</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ia.png" alt="">Intensify Action</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/spu.png" alt="">Sub Power Up</span></td>
+                <td class="modeleiras"><span class="modename">12</span> ruha</td>
+                <td>
+                    <img src="kepek/s1e.png" alt="">
+                    <img src="kepek/s2e.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb4.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Cuttlegear</span></td>
+              <td class="modeleiras"></td>
+                <td class="modeleiras"></td>
+                <td class="modeleiras"><span class="modename">36</span> ruha<br><span class="modename">11</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb5.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Emberz</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ia.png" alt="">Intensify Action</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/scu.png" alt="">Special Charge Up</span></td>
+                <td class="modeleiras"><span class="modename">13</span> ruha</td>
+                <td>
+                  <img src="kepek/s1e.png" alt="">
+                  <img src="kepek/s2e.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb6.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Enperry</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/spu.png" alt="">Sub Power Up</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/iru.png" alt="">Ink Resistance Up</span></td>
+                <td class="modeleiras"><span class="modename">36</span> ruha<br><span class="modename">1</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1e.png" alt="">
+                  <img src="kepek/s2.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb7.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Famitsu</span></td>
+              <td class="modeleiras"></td>
+                <td class="modeleiras"></td>
+                <td class="modeleiras"><span class="modename">3</span> ruha</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2e.png" alt="">
+                  <img src="kepek/s3e.png" alt=""></tr>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb8.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Firefin</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/iss.png" alt="">Ink Saver (Sub)</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ireu.png" alt="">Ink Recovery Up</span></td>
+                <td class="modeleiras"><span class="modename">30</span> ruha<br><span class="modename">2</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></tr>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb9.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Forge</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/sdu.png" alt="">Special Duration Up</span>
+                <br>
+                <span class="modename"><img class="brandlogo" src="kepek/spou.png" alt="">Special Power Up</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/iss.png" alt="">Ink Saver (Sub)</span></td>
+                <td class="modeleiras"><span class="modename">45</span> ruha<br><span class="modename">1</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></tr>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb10.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Grizzco</span></td>
+              <td class="modeleiras"></td>
+                <td class="modeleiras"></td>
+                <td class="modeleiras"><span class="modename">30</span> ruha<br><span class="modename">6</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1e.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></tr>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb11.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Inkline</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/du.png" alt="">Defense Up</span><br>
+                <span class="modename"><img class="brandlogo" src="kepek/bdud.png" alt="">Bomb Defense Up DX</span><br>
+                <span class="modename"><img class="brandlogo" src="kepek/sru.png" alt="">Sub Resistance Up</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/dau.png" alt="">Damage Up</span><br>
+                    <span class="modename"><img class="brandlogo" src="kepek/mpu.png" alt="">Main Power Up</span><br>
+                    <span class="modename"><img class="brandlogo" src="kepek/ia.png" alt="">Intensify Action</span></td>
+                <td class="modeleiras"><span class="modename">38</span> ruha<br><span class="modename">2</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></tr>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb12.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">KOG</span></td>
+              <td class="modeleiras"></td>
+                <td class="modeleiras"></td>
+                <td class="modeleiras"><span class="modename">2</span> ruha</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2e.png" alt="">
+                  <img src="kepek/s3e.png" alt=""></tr>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb13.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Krak-On</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ssu.png" alt="">Swim Speed Up</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/du.png" alt="">Defense Up</span><br>
+                <span class="modename"><img class="brandlogo" src="kepek/bdud.png" alt="">Bomb Defense Up DX</span><br>
+                <span class="modename"><img class="brandlogo" src="kepek/sru.png" alt="">Sub Resistance Up</span></td>
+                <td class="modeleiras"><span class="modename">38</span> ruha
+                <br>
+                <span class="modename">1</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb14.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Rockenberg</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/rsu.png" alt="">Run Speed Up</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ssu.png" alt="">Swim Speed Up</span></td>
+                <td class="modeleiras"><span class="modename">44</span> ruha</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb15.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Skalop</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/qr.png" alt="">Quick Respawn</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ss.png" alt="">Special Saver</span></td>
+                <td class="modeleiras"><span class="modename">32</span> ruha</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb16.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Splash Mob</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ism.png" alt="">Ink Saver (Main)</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/rsu.png" alt="">Run Speed Up</span></td>
+                <td class="modeleiras"><span class="modename">41</span> ruha</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb17.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">SquidForce</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/dau.png" alt="">Damage Up</span><br>
+                <span class="modename"><img class="brandlogo" src="kepek/iru.png" alt="">Ink Resistance Up</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ism.png" alt="">Ink Saver (Main)</span></td>
+                <td class="modeleiras"><span class="modename">52</span> ruha
+                    <br>
+                    <span class="modename">1</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb18.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Takoroka</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/scu.png" alt="">Special Charge Up</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/sdu.png" alt="">Special Duration Up</span><br>
+                    <span class="modename"><img class="brandlogo" src="kepek/spou.png" alt="">Special Power Upp</span></td>
+                <td class="modeleiras"><span class="modename">36</span> ruha</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb19.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Tentatek</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ireu.png" alt="">Ink Recovery Up</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/qsj.png" alt="">Quick Super Jump</span></td>
+                <td class="modeleiras"><span class="modename">50</span> ruha
+                <br>
+                <span class="modename">3</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb20.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">The SQUID GIRL</span></td>
+              <td class="modeleiras"></td>
+                <td class="modeleiras"></td>
+                <td class="modeleiras"><span class="modename">3</span> ruha</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2e.png" alt="">                  
+                  <img src="kepek/s3e.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb21.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Toni Kensa</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/mpu.png" alt="">Main Power Up</span>
+                <br>
+                <span class="modename"><img class="brandlogo" src="kepek/ism.png" alt="">Ink Saver (Main)p</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/spu.png" alt="">Sub Power Up</span></td>
+                <td class="modeleiras"><span class="modename">28</span> ruha
+                <br><span class="modename">17</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1e.png" alt="">
+                  <img src="kepek/s2.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb22.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Z+F</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ss.png" alt="">Special Saver</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ireu.png" alt="">Ink Recovery Up</span></td>
+                <td class="modeleiras"><span class="modename">25</span> ruha
+                <br><span class="modename">2</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1e.png" alt="">
+                  <img src="kepek/s2e.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb23.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Zekko</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/ss.png" alt="">Special Saver</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/scu.png" alt="">Special Charge Up</span></td>
+                <td class="modeleiras"><span class="modename">42</span> ruha</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep" src="kepek/gb24.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Zink</span></td>
+              <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/qsj.png" alt="">Quick Super Jump</span></td>
+                <td class="modeleiras"><span class="modename"><img class="brandlogo" src="kepek/qr.png" alt="">Quick Respawn</span></td>
+                <td class="modeleiras"><span class="modename">37</span> ruha
+                <br><span class="modename">1</span> fegyver</td>
+                <td>
+                  <img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">                  
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+
+
+
+
+
+      <div class="container mt-3">
+        <h2 class="leiras">Fegyver Márkák</h2>        
+        <table class="table table-hover">
+          <thead>
+            <tr style="text-align: center;">
+              <th style="width: 10%;">Márka logó</th>
+              <th >Márka név</th>
+              <th style="width: 10%;">Játékok</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb1.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Splat</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb2.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Deco</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb3.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Dolphin</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb4.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Neo</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb5.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Nouveau</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb6.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Custom</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb7.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Ammo Knights</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb8.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Nintendo</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb9.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Sheldon's Picks</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb10.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Foil</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb11.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Sorella</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb12.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Whale</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb13.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Grizzco Industries</span></td>
+                <td><img src="kepek/s1e.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb14.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Tentatek</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb15.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Kensa Collection</span></td>
+                <td><img src="kepek/s1e.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb16.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Shark Fins</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"></div></td>
+              <td class="modeleiras"><span class="modename">Stringer</span></td>
+                <td><img src="kepek/s1e.png" alt="">
+                  <img src="kepek/s2e.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+              <tr>
+                <td><div style="text-align: center;"><img class="brandkep2" src="kepek/wb17.png" alt=""></div></td>
+              <td class="modeleiras"><span class="modename">Express</span></td>
+                <td><img src="kepek/s1.png" alt="">
+                  <img src="kepek/s2.png" alt="">
+                  <img src="kepek/s3.png" alt=""></td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+    
+
+
+
+
+
+
+
+
+      <a style="float: inline-end;" href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;"><img style="width: 100px;" src="kepek/up.gif" alt=""></a>
+      <div style="color: white; margin-left: 50px;">
+      </div>
+
+
+
+ <!-- Offcanvas Sidebar -->
+ <div style="background-image: url(kepek/fhatter.png);" class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title"><span class="leiras3">Információk</span></h1>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    
+  </div>
+  <div class="leiras4">
+    A weboldalt csinálta:<br><span class="leiras3">Szatmári Ferenc</span>
+    <br><br><br>
+    Minden forrás az <a href="https://splatoonwiki.org/wiki/Main_Page" target="_blank">Inkipediá</a>ról van
+    <br><br>
+    A hivatalos <a target="_blank" href="https://splatoon.nintendo.com/base/">Splatoon weboldal</a>
+  <br><br>
+    Itt játszhatsz a <a target="_blank" href="https://tableturf.andriocelos.net/">Tableturf Battle</a> online (nem hivatalos) változatával
+  </div>
+  <div class="offcanvas-body">
+    <img id="randomImage" src="" alt="" style="width: 350px;">
+  </div>
+</div>
+
+
+
+
+<div class="background"></div>
+<script src="splat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

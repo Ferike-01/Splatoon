@@ -1,0 +1,235 @@
+body{
+    background-color: rgb(27, 27, 27);
+}
+.logo{
+    text-align: center;
+}
+.leiras{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 100px;
+}
+.leiras2{
+    color: #ffffff;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.color{
+    color: forestgreen;
+}
+.modekep{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.modename{
+    text-align: center;
+    font-weight: bold;
+    color: forestgreen;
+}
+.modeleiras{
+    text-align: center;
+}
+.modejatek{
+    text-align: center;
+}
+.caru{
+    width: 720px;
+    margin: auto;
+}
+.aktiv{
+    color: forestgreen;
+}
+.maps{
+    width: 500px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+/* Alapértelmezett háttérkép, ha a JavaScript nem töltődne be */
+body.default {
+    background-image: url('kepek/hatter.png');
+}
+.caru2{
+    width: 950px;
+    margin: auto;
+}
+.modekep2{
+    height: 250px;
+}
+.modekep3{
+    height: 100px;
+}
+.amiibo{
+    height: 350px;
+    float: inline-start;
+}
+.amiibo2{
+    height: 250px;
+    float: inline-start;
+}
+.margobaze{
+    padding: 50px;
+}
+.leiras3{
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.leiras4{
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.juti{
+    height: 150px;
+}
+.brandkep{
+    width: 75px;
+}
+.brandlogo{
+    width: 40px;
+}
+.brandkep2{
+    width: 150px;
+}
+.leiras5{
+    color: #ffffff;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 100px;
+}
+.storykep{
+    width: 1000px;
+    float: inline-start;
+}
+.storykep2{
+    width: 900px;
+    float: inline-end;
+}
+.storykep3{
+    width: 600px;
+    float: inline-end;
+}
+.storykep4{
+    width: 500px;
+    float: inline-start;
+}
+.storykep5{
+    width: 800px;
+    float: inline-start;
+}
+.storykep6{
+    width: 350px;
+    float: inline-start;
+    margin-left: 70px;
+    margin-right: 30px;
+}
+.storykep7{
+    width: 1000px;
+    float: inline-end;
+}
+.storykep8{
+    width: 810px;
+    float: inline-start;
+}
+.storykep9{
+    width: 1800px;
+
+}
+.storykep10{
+    width: 500px;
+    float: inline-end;
+}
+.storykep11{
+    width: 1200px;
+    float: inline-start;
+}
+.leirasend{
+    text-align: center;
+    color: #ffffff;
+    font-size: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 100px;
+}
+.leiras8{
+    text-align: center;
+    color: #ffffff;
+    font-size: 120px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.leiras9{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.playerskep1{
+    margin-left: 100px;
+    width: 200px;
+}
+.playerskep{
+    width: 200px;
+}
+.playerstext{
+    color: #ffffff;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.butter{
+    margin-left: 100px;
+}
+.playerskep3{
+    width: 150px;
+}
+.playerskep2{
+    margin-left: 100px;
+    width: 150px;
+}
+.doboz{
+    transition: transform 0.3s ease;
+}
+
+.doboz:hover {
+    transform: scale(1.2);
+}
+.doboz2{
+    transition: transform 0.3s ease;
+}
+
+.doboz2:hover {
+    transform: scale(1.2);
+}
+.doboz3{
+    transition: transform 0.3s ease;
+}
+
+.doboz3:hover {
+    transform: scale(1.2);
+}

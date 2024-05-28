@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splatoon - Játékok</title>
+    <link rel="icon" href="kepek/icon.png" type="image/x-icon">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="splatoon.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img style="width: 100px;" src="kepek/Splatoon logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="modes.html"><img src="kepek/icon1.png" alt="">Játék Módok</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="locations.html"><img src="kepek/icon2.png" alt="">Helyszínek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sunken_scroll.html"><img src="kepek/icon3.png" alt="">Sunken Scrollok</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="characters.html"><img src="kepek/icon4.png" alt="">Karakterek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="amiibos.html"><img src="kepek/icon5.png" alt="">Amiibok</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="brands.html"><img src="kepek/icon6.png" alt="">Márkák</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="single-player.html"><img src="kepek/icon7.png" alt="">Egyjátékos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="salmon_run.html"><img src="kepek/icon8.png" alt="">Salmon Run</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="stages.html"><img src="kepek/icon9.png" alt="">Pályák</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="abilities.html"><img src="kepek/icon13.png" alt="">Képességek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="player_settings.html"><img src="kepek/icon10.png" alt="">Játékos Beállításai</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="games.html"><img src="kepek/icon12.png" alt=""><span class="aktiv">Játékok</span></a>
+              </li>
+              <li class="nav-item">
+                <span onclick="generateRandomImage()" data-bs-toggle="offcanvas" data-bs-target="#demo" class="nav-link" href=""><img src="kepek/icon11.png" alt="">Információk</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+
+
+      <h1 class="leiras"><img src="kepek/43.png" alt="">Játékok</h1>
+
+      <div style="padding: 20px;">
+      <div class="row">
+        <div style="text-align: center;" class="col-sm-4"><a target="_blank" href="https://nintendo-wii-u-jatek.arukereso.hu/nintendo/splatoon-wii-u-p269214983/"><img class="doboz3" style="width: 450px;" src="kepek/s1b.png" alt=""></a></div>
+        <div style="text-align: center;" class="col-sm-4"><a target="_blank" href="https://www.nintendo.com/us/store/products/splatoon-2-switch/"><img class="doboz3" style="width: 450px;" src="kepek/s2b.png" alt=""></a></div>
+        <div style="text-align: center;" class="col-sm-4"><a target="_blank" href="https://www.nintendo.com/us/store/products/splatoon-3-switch/"><img class="doboz3" style="width: 450px;" src="kepek/s3b.png" alt=""></a></div>
+      </div> 
+      </div>
+
+<br><br><br><br>
+
+
+
+
+
+
+ <!-- Offcanvas Sidebar -->
+ <div style="background-image: url(kepek/fhatter.png);" class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title"><span class="leiras3">Információk</span></h1>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    
+  </div>
+  <div class="leiras4">
+    A weboldalt csinálta:<br><span class="leiras3">Szatmári Ferenc</span>
+    <br><br><br>
+    Minden forrás az <a href="https://splatoonwiki.org/wiki/Main_Page" target="_blank">Inkipediá</a>ról van
+    <br><br>
+    A hivatalos <a target="_blank" href="https://splatoon.nintendo.com/base/">Splatoon weboldal</a>
+  <br><br>
+    Itt játszhatsz a <a target="_blank" href="https://tableturf.andriocelos.net/">Tableturf Battle</a> online (nem hivatalos) változatával
+  </div>
+  <div class="offcanvas-body">
+    <img id="randomImage" src="" alt="" style="width: 350px;">
+  </div>
+</div>
+
+
+
+
+
+
+<div class="background"></div>
+<script src="splat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
